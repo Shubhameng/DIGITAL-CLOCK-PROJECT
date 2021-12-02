@@ -1,0 +1,321 @@
+body{
+    
+    background-color:blueviolet; 
+   gap: 0;
+}
+#main-container{
+   display:flex;
+   flex-direction: row;
+   justify-content:space-around;
+   align-items:center;
+   gap: 0px;
+}
+.clock-img-container{
+display: grid;
+grid-template-columns: 200px;
+grid-template-rows: 100px;
+margin-left: -170px;
+}
+.clock{
+   
+   background-image: url(./assets/clock_logo.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+   
+}
+.left-container{
+   display: grid;
+   grid-template-columns:600px;
+   grid-template-rows: repeat(3,100px);
+   position: absolute;
+  margin-top: 550px;
+  margin-left: -550px;
+}
+#wakeup
+{
+   border: 4px solid white;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-image: url(./assets/wake_up.png);
+   background-position: left;
+   background-repeat: no-repeat;
+   background-color: white;
+}
+.text1{
+   position: absolute;
+   padding-left: 100px;
+   font-size: 25px;
+   padding-top:10px;
+   display: inline;
+}
+
+
+#Wakeup-time-container{
+   display:inline;
+   width: 200px;
+   height: 40px;
+   margin-left: 350px;
+   margin-top:30px;
+   position: absolute;
+   border-radius: 5px;
+}
+#lunch-time{
+   display:inline;
+   width: 200px;
+   height: 40px;
+   margin-left: 350px;
+   margin-top:30px;
+   position: absolute;
+   border-radius: 5px;
+   
+}
+#snap-time{
+   display:inline;
+   width: 200px;
+   height: 40px;
+   margin-left: 350px;
+   margin-top:30px;
+   position: absolute;
+   border-radius: 5px;
+   
+}
+.lunch{
+   border: 4px solid white;
+  
+   background-image: url(./assets/lunch_time.png);
+   background-position: left;
+   background-repeat: no-repeat;
+   background-color: white;
+}
+.snap{
+   border: 4px solid white;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-image: url(./assets/nap_time.png);
+   background-position: left;
+   background-repeat: no-repeat;
+   background-color: white;
+}
+.right-down-container{
+   background-color: white;
+   border-radius: 10px;
+   width: 450px;
+   height: 500px;
+   position: absolute;
+   right:190px;
+   bottom:80px;
+   font-size: 30px;
+   color: darkorchid;
+   text-align: center;
+  
+}
+ #right-down-inner-container1{
+   width: 450px;
+   height: 80px;
+   border-radius: 10px;
+ }
+ #right-down-inner-container2{
+   width: 450px;
+   height: 410px;
+   border-radius: 10px;
+   background-image: url(./assets/51zwIl630bL._SL1000_.jpg);
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+  
+ }
+ .right-upper-container1{
+   width:450px;
+   height: 100px;
+   background-color: white;
+   border-radius: 10px;
+   position: absolute;
+   right: 190px;
+   top: 20px;
+}
+.time{
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20px;
+     font-weight:bold;
+     position: absolute;
+     left: 20px;
+     bottom: 20px;
+}
+.right-upper-container2{
+
+   width: 350px;
+   height: 100px;
+   background-color: white;
+   z-index: -1;
+   border-radius: 10px;
+   position: absolute;
+   right: 240px;
+   top: 30px;
+  opacity: 0.71;
+}
+.right-upper-container3{
+   
+   width: 250px;
+   height: 100px;
+   background-color: white;
+   border-radius: 10px;
+   position: absolute;
+   right: 290px;
+   top: 40px;
+   z-index: -2;
+   opacity: 0.5;
+}
+/* #left-down-container1{
+   width: 500px;
+   height: 100px;
+   border: 2px solid white;
+   border-radius: 10px;
+   background-color: rgb(247, 41, 219);
+   position: absolute;
+   bottom:-120px;
+   left:2px
+} */
+.lower-text1{
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+   text-align: left;
+   position: relative;
+   bottom: 20px;
+   left: 20px;
+}
+.party-time{
+   width: 200px;
+   height: 50px;
+   background-image:linear-gradient(to right,rgb(0, 119, 255),rgba(255, 0, 149, 0.747));
+   border-radius: 10px;
+   position: relative;
+   text-align: center;
+   padding-top: 30px;
+   left: 2px;
+   color: bisque;
+   cursor: pointer;
+}
+.party-time:hover{
+   width: 200px;
+   height: 50px;     
+   background-image:linear-gradient(to left,rgb(162, 0, 255),rgba(255, 0, 149, 0.747));
+}
+.pic1{
+    background-image: url(./assets/timeline.png);
+   width: 70px;
+   height: 80px;
+   position: absolute;
+   top: 8px;
+   right: 290px;
+}
+#hours{
+   padding-left: 20px;
+   color: blueviolet;
+   font-size: 35px;
+}
+#minutes{
+   padding-left: 20px;
+   color: blueviolet;
+   font-size: 35px;
+}
+#seconds{
+   padding-left: 20px;
+   color: blueviolet;
+   font-size: 35px;
+}
+.hours1{
+   display: inline;
+   padding-left: 10px;
+   padding-top: -100px;
+   color: blueviolet;
+   font-size: 25px;
+}
+.mins1{
+   display: inline;
+   padding-left: 10px;
+   padding-top: -100px;
+   color: blueviolet;
+   font-size: 25px;
+}
+.secs1{
+   display: inline;
+   padding-left: 15px;
+   padding-top: -100px;
+   color: blueviolet;
+   font-size: 25px;
+}
+#am{
+    position: absolute;
+    color: white;
+     font-size: 30px;
+    top: 20px;
+    padding-left: 10px;
+}
+.pic2{
+    background-image: url(./assets/timeline.png);
+   width: 70px;
+   height: 80px;
+   position: absolute;
+   top: 8px;
+   right: 200px;
+}
+.pic3{
+    background-image: url(./assets/timeline.png);
+   width: 70px;
+   height: 80px;
+   position: absolute;
+   top: 8px;
+   right: 110px;
+}
+.pic4{
+    background-image: url(./assets/AM_svg.png);
+    width: 70px;
+    height: 80px;
+    position: absolute;
+    top: 8px;
+    right: 20px;
+}
+.dot1{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top:-5px;
+    right: 275px;
+    color: blueviolet;
+}
+.dot2{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top:-5px;
+    right: 185px;
+    color: blueviolet;
+}
+
+#dynamic-block{
+   width: 500px;
+   height: 30px;
+   border: 2px solid white;
+   border-radius: 10px;
+   background-color: rgb(247, 41, 219);
+   position: absolute;
+   bottom:150px;
+   left:198px;
+   color:white;
+   font-size: 20px;
+}
+#dynamic-block{
+   width: 500px;
+   height: fit-content;
+   border: 2px solid white;
+   border-radius: 10px;
+   background-color: rgb(247, 41, 219);
+   position: absolute;
+   bottom:120px;
+   left:198px;
+   color:white;
+   font-size: 20px;
+}
